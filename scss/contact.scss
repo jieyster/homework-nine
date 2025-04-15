@@ -1,0 +1,79 @@
+.contact {
+    padding-top: 180px;
+    height: 1200px;
+ background-image:linear-gradient(rgba(155, 125, 125, 0.5),rgba(122, 91, 91, 0.5)), url(../images/contactbg.png);
+ background-size: cover;
+ background-position: bottom;
+ background-repeat: no-repeat;
+    .body {
+    max-width: 900px;
+    min-height: 200px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    padding-top: 99.5px;
+    
+    h1 {
+        margin-bottom: 10px;
+        color: #4E1627;
+        font-family: cursive;
+        margin-left: -50px;
+        font-size: 50px;
+    }
+    h2 {
+        font-weight: lighter;
+    }
+
+    p {
+        font-size: 18px;
+        
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color: #4E1627;
+        
+    }
+    .map-holder {
+        height: 400px;
+        width: 400px;
+        background-image: linear-gradient(rgba(202, 189, 189, 0.5),rgba(122, 91, 91, 0.27)), url(../images/contact.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+   
+    .flex {
+        display: flex;
+    }
+    .form {
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px;
+        
+        input {
+            width: 550px;
+            height: 60px;
+            border: none;
+            margin-bottom: 20px;
+            background-color: #ceb9b1;
+            
+            padding: 20px;
+            
+        }
+
+        #message {
+            height: 199px;
+            padding-bottom: 160px;
+        }
+    }
+    .send {
+        background-color: #412B25;
+        width: 167px;
+        color: white;
+        font-size: 16px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+}
+}

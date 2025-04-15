@@ -1,0 +1,58 @@
+.about {
+    background-color: #cec1b1;
+    .top-container {
+        padding: 100px;
+        padding-top: 200px;
+        height: 600px;
+        background-color: #cec1b1;
+        color: #cec1b1;
+        font-size: 20px;
+        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/about.jpg);
+        background-size: cover;
+        h1 {
+            font-size: 55px;
+            font-family: cursive;
+        }
+    }
+
+    .bottom-container {
+        padding: 70px;
+        color: #3C3031;
+        font-size: 30px;
+        h2{
+                font-family: cursive;
+            }
+        .row{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            margin-top: 50px;
+            
+        .holder{
+            padding: 20px;
+            width: 300px;
+            img{
+                object-fit: cover;
+                height: 400px;
+                width: 300px;
+            }
+            h2{
+                color: #280a0a;
+                font-size: 28px;
+                font-family: serif;
+            }
+            h3 {
+                color: #511829 ;
+                font-size: 24px;
+            }
+            p {
+                width: 250px;
+                font-size: 18px;
+                text-align: center;
+                margin-left: 25px;
+                color: #8A5859;
+            }
+        }}
+
+    }
+}

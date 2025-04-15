@@ -1,0 +1,27 @@
+{
+  "name": "homework-nine",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "serve": "live-server",
+    "compile:sass": "sass scss/styles.scss css/styles.css -w --no-source-map"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jieyster/homework-nine.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jieyster/homework-nine/issues"
+  },
+  "homepage": "https://github.com/jieyster/homework-nine#readme",
+  "description": "",
+  "devDependencies": {
+    "sass": "^1.86.3"
+  }
+}

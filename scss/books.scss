@@ -1,0 +1,93 @@
+.books {
+    padding-top: 100px;
+    margin-bottom: 100px;
+
+    .books-hero {
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/books-hero.jpg);
+        height: 200px;
+        width: 90%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin-left: 5%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        
+        margin-bottom: 55px;
+
+        h1 {
+            color: white;
+            
+            font-size: 60px;
+            font-weight: 100;
+            letter-spacing: 6px;
+        }
+        
+    }
+
+
+    .pics2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 55px;
+        padding: 0 220px;
+        color: white;   
+        margin-top: 50px;
+        .box {
+            width: 300px;
+            height: 450px;
+            text-align: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;  
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-weight: lighter;
+           
+            
+    
+            p {
+                width: 250px;
+                font-size: 18px;
+            }
+            .learn {
+                background-color: #8A5859;
+                width: 180px;
+                height: 60px;
+                
+                border-radius: 45px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 30px;
+
+                a{
+                    text-decoration: none;
+                    color: white;
+                    font-family: serif;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1210px) {
+
+    .books {
+        margin-left: -100px;
+    }
+    .pics2  {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+        gap: 55px;
+        margin-left: 0;
+    }
+}
